@@ -1,6 +1,10 @@
-import { Inter } from 'next/font/google'
+import { Inter, Montserrat_Alternates } from 'next/font/google'
 import "funuicss/css/fun.css"
-const inter = Inter({ subsets: ['latin'] })
+import "./globals.css"
+const mont_serrat = Montserrat_Alternates({
+  subsets: ["latin"] ,
+ weight: ['400', '700' , '100', '200' , '500' , '900' , '800'],
+style: ['normal', 'italic'], })
 
 export const metadata = {
   title: 'Create Next App',
@@ -10,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={mont_serrat.className}>{children}</body>
     </html>
   )
 }

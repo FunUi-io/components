@@ -1,13 +1,10 @@
 import React from 'react'
-import FullCenteredPage from 'funuicss/ui/specials/FullCenteredPage'
 import Div from 'funuicss/ui/div/Div'
 import Text from 'funuicss/ui/text/Text'
 import Grid from 'funuicss/ui/grid/Grid'
 import Col from 'funuicss/ui/grid/Col'
 import Container from 'funuicss/ui/container/Container'
 import Section from 'funuicss/ui/specials/Section'
-import RowFlex from 'funuicss/ui/specials/RowFlex'
-import {PiCaretRight} from 'react-icons/pi'
 import Button from 'funuicss/ui/button/Button'
 import Input from 'funuicss/ui/input/Input'
 export default function Section1() {

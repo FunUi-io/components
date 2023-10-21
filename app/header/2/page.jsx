@@ -1,5 +1,4 @@
 import React from 'react'
-import FullCenteredPage from 'funuicss/ui/specials/FullCenteredPage'
 import Div from 'funuicss/ui/div/Div'
 import Text from 'funuicss/ui/text/Text'
 import Grid from 'funuicss/ui/grid/Grid'
