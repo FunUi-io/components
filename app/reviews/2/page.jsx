@@ -14,143 +14,14 @@ import ListItem from 'funuicss/ui/list/Item'
 import ProgressBar from 'funuicss/ui/progress/Bar'
 export default function Section1() {
   return (
-    <Div margin="5rem 0" padding='2rem'>
-        <Grid>
-            <Col sm={12} md={12} lg={5} funcss='padding'>
-            <Text
-      text={"Customer Reviews"}
-      heading='h2'
-      bold 
-      color='dark300'
-      block
-      />
-      <Section gap={0.3} />
-        <RowFlex gap={1}>
-            <Div>
-                <RowFlex >
-                    <span className='text-primary'><PiStarDuotone size={25} /></span>
-                    <span className='text-primary'><PiStarDuotone size={25} /></span>
-                    <span className='text-primary'><PiStarDuotone size={25} /></span>
-                    <span className='text-primary'><PiStarDuotone size={25} /></span>
-                    <span className='text-dark500'><PiStarDuotone size={25} /></span>
-                </RowFlex>
-            </Div>
-           <Div>
-           <Text
-            text='Based on 1624 reviews'
-            color='dark400'
-            block
-            />
-           </Div>
-        </RowFlex>
-        <Section gap={2} />
-        <List>
-            <ListItem>
-                <RowFlex gap={1}>
-                    <Div>
-                        <Text
-                        text='5'
-                        />
-                    </Div>
-                    <Div>
-                    <span className='text-primary'><PiStar size={20} style={{margin:0}}/></span>
-                    </Div>
-                    <Div minWidth='250px'>
-                    <ProgressBar  progress={63} rounded  bg="primary"  />
-                    </Div>
-                    <Div>
-                        <Text
-                        text='63%'
-                        />
-                    </Div>
-                </RowFlex>
-            </ListItem>
-            <ListItem>
-                <RowFlex gap={1}>
-                    <Div>
-                        <Text
-                        text='4'
-                        />
-                    </Div>
-                    <Div>
-                    <span className='text-primary'><PiStar size={20} style={{margin:0}}/></span>
-                    </Div>
-                    <Div minWidth='250px'>
-                    <ProgressBar  progress={12} rounded  bg="primary"  />
-                    </Div>
-                    <Div>
-                        <Text
-                        text='12%'
-                        />
-                    </Div>
-                </RowFlex>
-            </ListItem>
-            <ListItem>
-                <RowFlex gap={1}>
-                    <Div>
-                        <Text
-                        text='3'
-                        />
-                    </Div>
-                    <Div>
-                    <span className='text-primary'><PiStar size={20} style={{margin:0}}/></span>
-                    </Div>
-                    <Div minWidth='250px'>
-                    <ProgressBar  progress={10} rounded  bg="primary"  />
-                    </Div>
-                    <Div>
-                        <Text
-                        text='10%'
-                        />
-                    </Div>
-                </RowFlex>
-            </ListItem>
-            <ListItem>
-                <RowFlex gap={1}>
-                    <Div>
-                        <Text
-                        text='2'
-                        />
-                    </Div>
-                    <Div>
-                    <span className='text-primary'><PiStar size={20} style={{margin:0}}/></span>
-                    </Div>
-                    <Div minWidth='250px'>
-                    <ProgressBar  progress={6} rounded  bg="primary"  />
-                    </Div>
-                    <Div>
-                        <Text
-                        text='6%'
-                        />
-                    </Div>
-                </RowFlex>
-            </ListItem>
-            <ListItem>
-                <RowFlex gap={1}>
-                    <Div>
-                        <Text
-                        text='1'
-                        />
-                    </Div>
-                    <Div>
-                    <span className='text-primary'><PiStar size={20} style={{margin:0}}/></span>
-                    </Div>
-                    <Div minWidth='250px'>
-                    <ProgressBar  progress={9} rounded  bg="primary"  />
-                    </Div>
-                    <Div>
-                        <Text
-                        text='9%'
-                        />
-                    </Div>
-                </RowFlex>
-            </ListItem>
-        </List>
-
-        <Section gap={2} />
-        <Text
-        text='Share your thoughts' 
+    <Div margin="2rem 0" padding='2rem'>
+       <Div maxWidth='700px' funcss='center' >
+     
+       <Text
+        text='Our Reviews' 
         heading='h5'
+        bold
+        color='dark200'
         block
         />
         <Text
@@ -158,16 +29,7 @@ export default function Section1() {
         color='dark400'
         block
         />
-            <Section gap={1.5} />
-            <Button
-            bg='primary'
-            outlined 
-            text='Write a review'
-            fullWidth
-            funcss='width-300-max'
-            />
-            </Col>
-            <Col sm={12} md={12} lg={7} funcss='padding'>
+      <Section gap={2} />
                 <List>
                     <ListItem funcss='hr padding-bottom-50 padding-top-50'>
                         <RowFlex gap={1}>
@@ -245,8 +107,8 @@ export default function Section1() {
                         />
                     </ListItem>
                 </List>
-            </Col>
-        </Grid>
+          
+        </Div>
 
       
     </Div>
