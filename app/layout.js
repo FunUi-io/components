@@ -1,10 +1,10 @@
-import { Inter, Montserrat_Alternates } from 'next/font/google'
-import "funuicss/css/fun.css"
+import { Inter, Poppins } from 'next/font/google'
 import "./globals.css"
-const mont_serrat = Montserrat_Alternates({
+import 'funuicss/css/fun.css'
+const mont_serrat = Poppins({
   subsets: ["latin"] ,
  weight: ['400', '700' , '100', '200' , '500' , '900' , '800'],
-style: ['normal', 'italic'], })
+ })
 
 export const metadata = {
   title: 'Create Next App',
